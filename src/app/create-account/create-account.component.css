@@ -1,12 +1,7 @@
-.container {
-    width: 200vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
-}
+
+
 .jumbotron{
+    margin-top: 5%;
   height: auto;
   width: auto;
 }
@@ -57,9 +52,9 @@
     margin-top: 0;
     color: #3951b2;
   }
-  /* .btn{
+  .btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center
-  } */
+  }
