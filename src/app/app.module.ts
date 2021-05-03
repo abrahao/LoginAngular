@@ -8,6 +8,7 @@ import { CreateAccountComponent } from './create-account/create-account.componen
 import { RecoverAccountComponent } from './recover-account/recover-account.component';
 import { HomeComponent } from './home/home.component';
 import { MsgRecoverComponent } from './msg-recover/msg-recover.component';
+import { MsgCreatedAccountComponent } from './msg-created-account/msg-created-account.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MsgRecoverComponent } from './msg-recover/msg-recover.component';
     CreateAccountComponent,
     RecoverAccountComponent,
     HomeComponent,
-    MsgRecoverComponent
+    MsgRecoverComponent,
+    MsgCreatedAccountComponent
   ],
   imports: [
     BrowserModule,
