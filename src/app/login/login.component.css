@@ -1,15 +1,23 @@
 .container {
-    width: 200vw;
+  /* margin-left: auto; */
+    /* width: 200vw; */
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
-}
+    align-items: center;
+    background-color: black;
+  }
 .jumbotron{
   height: auto;
   width: auto;
 }
+
+img{
+  /* margin-left: 20%;
+  margin-top: 5%; */
+}
+
 .title{
     font-size: 24px;
     box-shadow: blue;

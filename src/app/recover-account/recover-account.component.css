@@ -10,6 +10,9 @@
   height: auto;
   width: auto;
 }
+button{
+  margin-left: 26%;
+}
 .title{
     font-size: 24px;
     box-shadow: blue;
