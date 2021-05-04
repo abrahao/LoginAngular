@@ -2,54 +2,57 @@
     <div class="jumbotron">
         <img src="./assets/logo.png" alt="" height="100" width="200">
         <div class="container">
-            <div class="row">
-                <div class="col-sm">
 
-                    <div class="label-float">
-                        <input type="text" placeholder=" " />
-                        <label>Full Name</label>
-                    </div>
-                    <br />
-                    <div class="label-float">
-                        <input type="text" placeholder=" " />
-                        <label>Login</label>
-                    </div>
-                    <br />
+            <form #form="ngForm">
+                <div class="row">
+                    <div class="col-sm">
 
-                </div>
-                <div class="col-sm">
-                    <div class="label-float">
-                        <input type="email" placeholder=" " />
-                        <label>E-mail</label>
+                        <div class="label-float">
+                            <input type="text" placeholder=" " />
+                            <label>Full Name</label>
+                        </div>
+                        <br />
+                        <div class="label-float">
+                            <input type="text" placeholder=" " />
+                            <label>Login</label>
+                        </div>
+                        <br />
+
                     </div>
-                    <br />
-                    <div class="label-float">
-                        <input type="email" placeholder=" " />
-                        <label>Second E-mail</label>
-                    </div>
-                    <br/>
-                    <br>
-                    <br>
-                    <button type="button" class="btn btn-outline-primary" style="margin-left: 30%;">
-                        <a routerLink="/msg-created-account" style=" text-decoration:none; color:black">Register</a>
+                    <div class="col-sm">
+                        <div class="label-float">
+                            <input type="email" placeholder=" " />
+                            <label>E-mail</label>
+                        </div>
+                        <br />
+                        <div class="label-float">
+                            <input type="email" placeholder=" " />
+                            <label>Second E-mail</label>
+                        </div>
+                        <br />
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-outline-primary" style="margin-left: 30%;">
+                            <a routerLink="/msg-created-account" style=" text-decoration:none; color:black">Register</a>
                         </button>
 
-                </div>
-
-                <div class="col-sm">
-
-                    <div class="label-float">
-                        <input type="password" placeholder=" " required />
-                        <label>Password</label>
                     </div>
-                    <br>
-                    <div class="label-float">
-                        <input type="password" placeholder=" " required />
-                        <label>Re-entry Password</label>
+
+                    <div class="col-sm">
+
+                        <div class="label-float">
+                            <input type="password" placeholder=" " required />
+                            <label>Password</label>
+                        </div>
+                        <br>
+                        <div class="label-float">
+                            <input type="password" placeholder=" " required />
+                            <label>Re-entry Password</label>
+                        </div>
+                        <br>
                     </div>
-                    <br>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
