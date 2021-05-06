@@ -10,6 +10,7 @@ import { RecoverAccountComponent } from './recover-account/recover-account.compo
 import { HomeComponent } from './home/home.component';
 import { MsgRecoverComponent } from './msg-recover/msg-recover.component';
 import { MsgCreatedAccountComponent } from './msg-created-account/msg-created-account.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MsgCreatedAccountComponent } from './msg-created-account/msg-created-ac
     RecoverAccountComponent,
     HomeComponent,
     MsgRecoverComponent,
-    MsgCreatedAccountComponent
+    MsgCreatedAccountComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
